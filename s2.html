@@ -1,0 +1,73 @@
+<html>
+    <head>
+        <title>calculator</title>
+        <link rel="stylesheet" href="s1.css">
+        </head>
+<body >   
+        
+    <br><br>     <br><br>      
+<div id="main">
+
+        
+        <input type="text" style="margin-top:10px" height="50px" width="330" class="text"   > 
+        
+        <button  class="ec" style="margin-left:50px" onclick="equal()" >=</button>
+        <button class="ec" style="margin-left:308px" onclick="clr()">CLEAR</button>
+
+        <div class="number">
+
+        <button class="num" id="left" value="7"  style="position:relative;top:20px;"   onclick="myfunction(value)" >7</button>
+        <button class="num" id="left" value="4" style="position:relative;top:40px;" onclick="myfunction(value)" >4</button>
+        <button class="num" id="left" value="1"  style="position:relative;top:60px;" onclick="myfunction(value)" >1</button>
+        <button class="num" id="left" value="00"   style="position:relative;top:80px;"onclick="myfunction(value)" >00</button>
+
+        
+        <button class="num" id="middle" value="8"     onclick="myfunction(value)" >8</button>
+        <button class="num" id="middle" value="5"   onclick="myfunction(value)" >5</button>
+        <button class="num" id="middle" value="2"  onclick="myfunction(value)" >2</button>
+        <button class="num" id="middle" value="0"    onclick="myfunction(value)" >0</button>
+
+        <button class="num" id="right" value="9"      onclick="myfunction(value)" >9</button>
+        <button class="num" id="right" value="6" onclick="myfunction(value)" >6</button>
+        <button class="num" id="right" value="3"   onclick="myfunction(value)" >3</button>
+        <button class="num" id="right" value="."  onclick="myfunction(value)" >.</button>
+    </div>
+    <div class="operation">
+        
+        <button class="num" id="left" value="/"  style="position:relative;top:20px;"   onclick="myfunction(value)" >÷</button>
+        <button class="num" id="left" value="*" style="position:relative;top:40px;" onclick="myfunction(value)" >x</button>
+        <button class="num" id="left" value="-"  style="position:relative;top:60px;" onclick="myfunction(value)" >-</button>
+        <button class="num" id="left" value="+"   style="position:relative;top:80px;"onclick="myfunction(value)" >+</button>
+
+        <button class="num" id="middle" value="**"     onclick="myfunction(value)" >**</button>
+        <button class="num" id="middle" value="**0.5"   onclick="myfunction(value)" >√</button>
+        <button class="num" id="middle" value="/100"  onclick="myfunction(value)" >%</button>
+        
+    </div>
+
+
+
+
+        <script>
+            var p=document.querySelector(".text");
+            function myfunction(value){                                    
+                 p.value=p.value+value;                                 
+                          }
+             function equal()
+             {
+              p.value=eval(p.value);
+                  }
+
+              function clr()
+             {  p.value='';       }                
+                                                      
+                                        
+          </script>
+       
+   
+
+    </div>
+    
+
+</body>
+</html>
