@@ -12,11 +12,9 @@ body{
     width:550px;
     height:450px;
     background-color:rgb(245, 245, 225);
-    position:relative;top:50%;
-    border-radius:25px;       
-    
-   background-color: whitesmoke;
-    margin:auto;
+       border-radius:25px;       
+       background-color: whitesmoke;
+    margin-top:50%;
    
 }
 .ec{
