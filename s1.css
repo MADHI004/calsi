@@ -1,7 +1,7 @@
 body{
     background-image:url("bb.jpeg");
     background-repeat: no-repeat;
-   background-size: 80% 50%;
+   background-size: 80% 100%;
    background-attachment: fixed;
    background-position: center;
   
@@ -12,7 +12,7 @@ body{
     height:450px;
     background-color:rgb(245, 245, 225);
     border-radius:25px;       
-    position:relative;top:50%;
+    
    background-color: whitesmoke;
     margin:auto;
    
