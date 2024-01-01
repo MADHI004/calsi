@@ -12,7 +12,7 @@ body{
     height:450px;
     background-color:rgb(245, 245, 225);
     border-radius:25px;       
-    
+    position:relative;top:50%;
    background-color: whitesmoke;
     margin:auto;
    
