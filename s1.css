@@ -1,7 +1,7 @@
 body{
     background-image:url("bb.jpeg");
     background-repeat: no-repeat;
-   background-size: 80% 50%;
+  
    background-attachment: fixed;
    background-position: center;
     height:600px;
